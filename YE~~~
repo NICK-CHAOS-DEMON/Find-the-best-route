@@ -1,0 +1,11 @@
+block=[
+    { "gym":False, "school":2,"self":3 },
+    { "gym":True, "school":22,"self":32 },
+    {"gym": True, "school": 32, "self": 33},
+
+]
+
+for x in block:
+    if x["gym"] == True:
+        print(x["gym"])
+        break
